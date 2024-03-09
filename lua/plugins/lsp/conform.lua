@@ -10,28 +10,23 @@ return {
 				javascriptreact = { "prettierd" },
 				typescriptreact = { "prettierd" },
 				css = { "prettierd" },
-				html = { "prettierd" },
 				json = { "prettierd" },
 				markdown = { "prettierd" },
 				yaml = { "yamlfmt" },
 				lua = { "stylua" },
 				python = { "autopep8" },
 				htmldjango = { "djlint" },
+				html = { "djlint" },
 				go = { "goimport_reviser", "gofmt", "golines", "gofumpt" },
 				sql = { "sql_formatter" },
+				bash = { "beautysh" },
 			},
 			format_on_save = true,
 			async = false,
 			timeout_ms = 500,
 		})
-		-- require("conform").formatters.prettierd = {
-		-- 	extra_args = {
-		-- 		"--no-semi",
-		-- 		"--single-qoute",
-		-- 		"--jsx-single-qoute",
-		-- 	},
-		-- }
-		vim.keymap.set({ "n", "v" }, "<leader>mp", function()
+
+		vim.keymap.set({ "n", "v" }, "<leader>f", function()
 			conform.format({
 				lsp_fallback = true,
 				async = false,

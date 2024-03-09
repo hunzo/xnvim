@@ -24,7 +24,7 @@ return {
 			end,
 		})
 
-		vim.keymap.set("n", "<leader>i", function()
+		vim.keymap.set("n", "<leader>l", function()
 			lint.try_lint()
 		end)
 	end,
