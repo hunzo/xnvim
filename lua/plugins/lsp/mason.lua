@@ -58,7 +58,7 @@ return {
 				"stylua",
 				"gofumpt",
 				"golines",
-				"goimports-reviser",
+				-- "goimports-reviser",
 				"ruff",
 				"yamlfmt",
 				"sql-formatter",
