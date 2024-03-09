@@ -41,3 +41,19 @@ git clone https://github.com/hunzo/xnvim ~/.config/nvim && nvim
   "semi": false
 }
 ```
+
+## eslint
+
+- create file .eslintrc.json
+
+```json
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  }
+}
+```
