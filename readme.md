@@ -16,7 +16,7 @@
 ### install
 
 ```bash
-git clone https://github.com/hunzo/nvim ~/.config/nvim && nvim
+git clone https://github.com/hunzo/xnvim ~/.config/nvim && nvim
 ```
 
 ## CheckHealth
@@ -32,10 +32,12 @@ git clone https://github.com/hunzo/nvim ~/.config/nvim && nvim
 ```
 
 ## prettier singleQuote no semi-colon
+
 - create file .prettierrc
+
 ```json
 {
-    "singleQuote": true,
-    "semi": false
+  "singleQuote": true,
+  "semi": false
 }
 ```
