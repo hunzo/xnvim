@@ -29,6 +29,14 @@ return {
 				})
 			end
 			-- custom configs
+			-- lspconfig.gopls.setup({
+			-- 	settings = {
+			-- 		gopls = {
+			-- 			gofumpt = true,
+			-- 		},
+			-- 	},
+			-- })
+
 			lspconfig.yamlls.setup({
 				settings = {
 					yaml = {

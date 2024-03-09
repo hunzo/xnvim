@@ -17,7 +17,7 @@ return {
 				python = { "autopep8" },
 				htmldjango = { "djlint" },
 				html = { "djlint" },
-				go = { "gofmt", "golines", "gofumpt" },
+				go = { "gopfumt", "golines" },
 				sql = { "sql_formatter" },
 				sh = { "beautysh" },
 			},
