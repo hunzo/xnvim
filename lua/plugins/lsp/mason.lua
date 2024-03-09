@@ -37,7 +37,7 @@ return {
 				"html",
 				"lua_ls",
 				"yamlls",
-				-- "denols",
+				"denols",
 				"dockerls",
 				"bashls",
 				"jsonls",
@@ -53,7 +53,6 @@ return {
 			ensure_installed = {
 				"autopep8",
 				"djlint",
-				-- "pylint",
 				"eslint_d",
 				"prettierd",
 				"stylua",
@@ -65,6 +64,7 @@ return {
 				"sql-formatter",
 				"golangci-lint",
 				"beautysh",
+				"mypy",
 			},
 		})
 	end,
