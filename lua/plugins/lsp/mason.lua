@@ -63,7 +63,7 @@ return {
 				"sql-formatter",
 				"golangci-lint",
 				"beautysh",
-				"mypy",
+				-- "mypy",
 			},
 		})
 	end,
