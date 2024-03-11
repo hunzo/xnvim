@@ -25,6 +25,8 @@ return {
 			format_on_save = true,
 			async = false,
 			timeout_ms = 500,
+			notify_on_error = true,
+			log_level = vim.log.levels.DEBUG,
 		})
 
 		vim.keymap.set({ "n", "v" }, "<leader>f", function()
